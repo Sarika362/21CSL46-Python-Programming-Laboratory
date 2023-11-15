@@ -1,0 +1,6 @@
+he expression phone_regex = re.compile(r'\+\d{12}') is a Python code that creates a regular expression object phone_regex that can be used to search for phone numbers in a string. The regular expression pattern r'\+\d{12}' is used to match phone numbers that start with a plus sign + followed by 12 digits. The r before the pattern string indicates that it is a raw string, which means that backslashes are treated as literal backslashes rather than escape characters. The \d in the pattern represents any digit from 0 to 9, and {12} specifies that the preceding character (in this case, \d) must be matched exactly 12 times. So, this regular expression will match phone numbers like +911234567890 
+sample5@gmail.com 
+Enter the filename : example.txt
++911234566660 
+samp@gmail.com 
+Enter the filename : example.txt
